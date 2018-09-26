@@ -1,0 +1,171 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: RGB(30,32,34);
+    flex-direction: column;
+    color: RGB(220,218,216);
+    display:flex;
+    -webkit-font-smoothing: antialiased;
+}
+
+.title-frame{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom:200px;
+    position:fixed;
+    z-index: -1;
+    order:1;
+}
+.title{
+    font-size: 64px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.logo-line{
+    color: RGB(30,32,34);
+    height:200px;
+}
+.container{
+    transform: skewY(8deg);
+    box-shadow: 15px 15px 14px #888888;
+    padding:0px;
+    padding-bottom: 200px;
+    order:3;
+    z-index: 12;
+    color: RGB(30,32,34);
+    background-color: RGB(220,218,216);
+    margin: 550px 5% 5% 5%;
+    max-width: 90%;
+}
+
+.container-item{
+    transform: skewY(-8deg);
+    font-size: 16px;
+    width:100%;
+    margin-bottom:150px;
+    padding-right:5%;
+}
+.container-space{
+    width:100%;
+    height:200px;
+    background-color: RGB(210,208,206);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom:150px;
+}
+.project-title{
+    transform: skewY(-8deg);
+    vertical-align: middle;
+    padding-left: 5%;
+}
+.container-title{
+    padding-left:5%;
+    font-size:32px;
+    font-weight: bold;
+}
+.container-subtext{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.container-text{
+    padding-left:5%;
+    font-size:32px;
+}
+
+.intertext-space{
+    height: 10px;
+}
+
+.list-item-header{
+    display: inline-block;
+    font-weight: bold;
+}
+.skills-container{
+    padding-top:15px;
+    padding-bottom:15px;
+    transform: skewX(-32deg);
+    color: white;
+    max-width: 500px;
+    margin-left:0;
+    padding-left: 0;
+    left: -150px;
+}
+.skills-vodafone{
+    background-color: #e60000;
+}
+.skills-critical{
+    background-color: #c4161c;
+}
+.skills-ericsson{
+    background-color: #002561;
+}
+.skills{
+    transform: skewX(32deg);
+    text-align: center;
+}
+.btn-modules{
+    background-color: RGB(30,32,34);
+    color: white;
+    padding-top:5px;
+    padding-bottom:5px;
+    transform: skewX(-32deg);
+    margin-right:20px;
+}
+.btn-modules:hover{
+    color: black;
+    background-color:  RGB(220,218,216);
+}
+.popover{
+    max-width:100%;
+    color: white;
+}
+.popover-title{
+    color:white;
+}
+.popover-content{
+    color:white;
+}
+.social-icon img{
+  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  -moz-transition: all 0.5s ease; /* Firefox */
+  -ms-transition: all 0.5s ease; /* IE 9 */
+  -o-transition: all 0.5s ease; /* Opera */
+  transition: all 0.5s ease;
+}
+.social-icon:hover img{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+   transform:scale(1.25);
+   opacity: 0.7;
+   cursor: pointer;
+}
+@media (max-width: 1500px) {
+  .container {
+    margin: 550px 2% 2% 2%;
+    max-width: 96%;
+  }
+}
+@media (max-width: 1220px) {
+  .container {
+    margin: 550px 2% 2% 2%;
+    max-width: 96%;
+  }
+  .skills-container {
+    margin-right:15%;
+    margin-left:15%;
+    left: 0px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    margin: 550px 0 0 0;
+    max-width: 100%;
+    box-shadow: 0px 0px 0px #888888;
+  }
+}

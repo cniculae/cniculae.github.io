@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="cristi.css">
+    <script>
+      $(function () {
+        $(".btn-modules").popover({
+          trigger: 'hover',
+          html: true,
+          container: '#educationSubtext'
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="title-frame">
+      <div class="title">
+        Cristian Niculae
+      </div>
+    </div>
+    <div class="container">
+      <div class="logo-line">
+       <div style="transform: skewY(-8deg);padding-left:5%">
+         <div class="row">
+           <div class="col-sm-1 social-icon">
+            <img src="Resources/git.png" width="64px" height="64px" onclick="window.open('https://github.com/cniculae', '_blank');"/>
+           </div>
+           <div class="col-sm-1 social-icon">
+            <img src="Resources/twitter.png" width="64px" height="64px" onclick="window.open('https://twitter.com/CristiNiculae', '_blank');"/>
+           </div>
+           <div class="col-sm-1 social-icon">
+            <img src="Resources/lin.png" width="70px" height="70px" onclick="window.open('https://www.linkedin.com/in/cristianioanniculae', '_blank');"/>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div class="container-item">
+        <div class="row">
+          <div class="container-title col-md-3">Education: </div>
+          <div class="container-text col-md-9">
+            MEng, Computer Science @ University of Southampton
+            <div class="container-subtext" id="educationSubtext">
+              Part of the ECS (Electronics and Computer Science) Department
+              <div class="intertext-space"></div>
+
+              <br>
+              <button id="descriptionBtn" type="button" class="btn btn-modules" data-content="Currently third year student." data-placement="bottom"><div style="transform: skewX(32deg);">description</div></button>
+              <button id="modulesBtn" type="button" class="btn btn-modules"
+                      data-content="<strong>First Year:</strong> Programming I, Programming II, Algorithmics, Data Management, Foundations of Computer Science, Software Modelling and Design, Computer Systems I, Professional Development
+                                    <hr><strong>Second Year:</strong> Second Year Group Project, Intelligent Systems, Theory of Computing, Programming III, Advanced Databases, Programming Language and Design, Interaction Design, Distributed Systems and Networks"
+                      data-placement="bottom">
+                <div style="transform: skewX(32deg);">
+                  modules
+                </div>
+              </button>
+              <button id="gradesBtn" type="button" class="btn btn-modules" data-content="<strong>First Year:</strong> First-Class Honours <br> <strong>Second Year:</strong> First-Class Honours <hr> <strong>Predicted Degree:</strong> First-Class Honours" data-placement="bottom"><div style="transform: skewX(32deg);">grades</div></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-space">
+        <div class="row" style="height: 100%;">
+          <div class="col-md-2 project-title" style="margin-top: 75px">
+              Projects:
+          </div>
+
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="row">
+          <div class="container-title col-md-3" style="margin-top: 7px">Experience:</div>
+          <div class="container-text col-md-9">
+            Software Developer Intern @ <img src="Resources/vodafone.png" width="192px" height="64px" style="margin-bottom: 7px">
+            <div class="intertext-space"></div>
+            <div class="container-subtext">
+              <ul>
+                <li><div class="list-item-header">Location:</div> Newbury, UK</li>
+                <li><div class="list-item-header">Duration:</div> 3 months (July 2017 - September 2017)</li>
+                <li><div class="list-item-header">Responsibilities:</div> Create a new website for a project, improving communications and coordination of the employees involved in the project (around 200 people). </li>
+                <li><div class="list-item-header">Accomplishments:</div> Successfully developed a product in an agile environment (daily scrums with increments of 2 weeks) that has greatly improved processes and how the way teams worked.</li>
+              </ul>
+              <div class="row">
+                <div class="col-md-5" style="padding-right:0;margin-right:0; padding-top:15px; font-weight: bold">
+                  Developed Skills:
+                </div>
+                <div class="col-md-7 skills-container skills-vodafone">
+                  <div class="skills">
+                    Javascript - Jquery - HTML - CSS
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-item">
+          <div class="row">
+            <div class="container-title col-md-3"></div>
+            <div class="container-text col-md-9">
+              Software Engineer Intern @  <img src="Resources/Critical.png" width="100px" height="100px">
+              <div class="intertext-space"></div>
+              <div class="container-subtext">
+                <ul>
+                  <li><div class="list-item-header">Location:</div> Southampton, UK</li>
+                  <li><div class="list-item-header">Duration:</div> 3 months (July 2016 - September 2016)</li>
+                  <li><div class="list-item-header">Responsibilities:</div> Develop an internal website to help everyone in the company monitor their work achievements.</li>
+                  <li><div class="list-item-header">Accomplishments:</div> Was part of a team of professional developers, learning basics on how to develop software in a team; pleased the product stakeholders with my results. </li>
+                </ul>
+                <div class="row">
+                  <div class="col-md-5" style="padding-right:0;margin-right:0; padding-top:15px; font-weight: bold">
+                    Developed Skills:
+                  </div>
+                  <div class="col-md-7 skills-container skills-critical">
+                    <div class="skills">
+                      C# - SQL - ASP.NET
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="container-item">
+        <div class="row">
+          <div class="container-title col-md-3"></div>
+          <div class="container-text col-md-9">
+            Summer Tech Intern @ <img src="Resources/ericsson.png" width="230px" height="50px" style="margin-bottom: 10px">
+            <div class="intertext-space"></div>
+            <div class="container-subtext">
+              <ul>
+                <li><div class="list-item-header">Location:</div> Bucharest, RO</li>
+                <li><div class="list-item-header">Duration:</div> 4 weeks (June 2016)</li>
+                <li><div class="list-item-header">Responsibilities:</div> Develop a webapp for easy creation and visualization of reports on success rates of a telecommunication infrastructure.</li>
+                <li><div class="list-item-header">Accomplishments:</div> Learned new technologies and gained new skills at a fast pace; successfully delivered the requested product. </li>
+              </ul>
+              <div class="row">
+                  <div class="col-md-5" style="padding-right:0;margin-right:0; padding-top:15px; font-weight: bold">
+                    Developed Skills:
+                  </div>
+                  <div class="col-md-7 skills-container skills-ericsson">
+                    <div class="skills">
+                      PHP - JavaScript - MySQL - Bash
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  </body>
+</html>
