@@ -5,10 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Site in progress. Come back later!
+      <name className="App-name">Cristian Ioan Niculae</name>
+      <header className="App-header1">
+        Site in progress. Come back later
       </header>
-    </div>
+      </div>
   );
 }
 
